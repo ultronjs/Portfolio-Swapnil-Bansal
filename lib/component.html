@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Component Library</title>
+    <link href="/style.css" rel='stylesheet'/>
+</head>
+<body>
+    <h1>Portfolio Component Library</h1>
+    I am writing this code to break my website into component and later can join them to make 
+    a portfolio website like a lego pieces.
+    
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the seconf biggest heading</h2>
+    <p>Let me show you the normal text.This is free flowing and will wrap at the 
+        end like a paragraph </p>
+    <p>This paragraph will have a <strong>bold</strong></strong> text</p>
+    <small>This is relatively small text</small> 
+    <hr>
+
+    <h2>@container</h2>
+    
+    <h3>fluid container</h3>
+    <div class="containers">This is a fluid container and it will go till the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a center container and it will go till the specified width</div>
+    <hr>
+    <h2>@links</h2>
+
+    <a class="link link-primary" href='/'>Primary Link</a>
+    <a class="link link-secondary" href='/'>Secondary Link</a>
+    <hr>
+
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>We don't want to show bullets in the unordered list.We'll remove that with the CSS </p>
+    <ul class='list-non-bullet'>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>unordered Inline list</h3>
+    <ul class='list-non-bullet'>
+        <li class="list-item-inline">Incline Item One</li>
+        <li class="list-item-inline">Incline Item Two</li>
+        <li class="list-item-inline">Incline Item Three</li>
+    </ul>
+
+    <h3>ordered list</h3>
+    <ol reversed>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Node</li>
+    </ol>
+
+    <hr>
+
+    <nav class='navigation'>
+        <div class='nav-brand'>IAmDeveloper</div>
+        <ul class='list-non-bullet nav-pills'>
+            <li class="list-item-inline"><a class='link link-active' href='/'>Home</a></li>
+            <li class="list-item-inline"><a class='link' href='/'>Projects</a></li>
+            <li class="list-item-inline"><a class='link' href='/'>Blogs</a></li>
+        </ul>
+
+    </nav>
+
+    <hr>
+    <header class='hero'>
+        <img class='hero-img' src="/images/hero.svg"/>
+        <h1 class='hero-heading'>Swapnil Bansal the <span class=hero-span>Web Developer</span></h1>
+    </header>
+    <hr>
+
+    <h2>@section</h2>
+    <section class='section'>
+        <div class='container-center'>
+            <h1>white secion</h1>
+            <p>This will have white background</p>
+        </div>
+        
+    </section>
+
+    <section class='section ow'>
+        <div class='container-center'>
+            <h1>off white section</h1>
+            <p>This will have grap background</p>
+        </div>
+     
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class='footer'>
+        <div class='footer-header'>Some small heading inside footer</div>
+        <ul class='social-links list-non-bullet'>
+            <li class='list-item-inline'><a class='footer-link link' href="/">socialOne</a></li>
+            <li class='list-item-inline'><a class='footer-link link' href="/">socialTwo</a></li>
+            <li class='list-item-inline'><a class='footer-link link' href="/">socialThree</a></li>
+        </ul>
+    </footer>
+
+      
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
